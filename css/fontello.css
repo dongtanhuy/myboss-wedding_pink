@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?80947626');
+  src: url('../fonts/fontello.eot?80947626#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?80947626') format('woff'),
+       url('../fonts/fontello.ttf?80947626') format('truetype'),
+       url('../fonts/fontello.svg?80947626#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?80947626#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-T:before { content: '\e800'; } /* '' */
+.icon-U:before { content: '\e801'; } /* '' */
+.icon-V:before { content: '\e802'; } /* '' */
+.icon-W:before { content: '\e803'; } /* '' */
+.icon-X:before { content: '\e804'; } /* '' */
+.icon-Y:before { content: '\e805'; } /* '' */
+.icon-Z:before { content: '\e806'; } /* '' */
+.icon-n:before { content: '\e807'; } /* '' */
+.icon-o:before { content: '\e808'; } /* '' */
+.icon-p:before { content: '\e809'; } /* '' */
+.icon-q:before { content: '\e80a'; } /* '' */
+.icon-r:before { content: '\e80b'; } /* '' */
+.icon-s:before { content: '\e80c'; } /* '' */
+.icon-t:before { content: '\e80d'; } /* '' */
+.icon-A:before { content: '\e80f'; } /* '' */
+.icon-B:before { content: '\e810'; } /* '' */
+.icon-C:before { content: '\e811'; } /* '' */
+.icon-D:before { content: '\e812'; } /* '' */
+.icon-E:before { content: '\e813'; } /* '' */
+.icon-F:before { content: '\e814'; } /* '' */
+.icon-G:before { content: '\e815'; } /* '' */
+.icon-H:before { content: '\e816'; } /* '' */
+.icon-I:before { content: '\e817'; } /* '' */
+.icon-J:before { content: '\e818'; } /* '' */
+.icon-K:before { content: '\e819'; } /* '' */
+.icon-L:before { content: '\e81a'; } /* '' */
+.icon-a:before { content: '\e81b'; } /* '' */
+.icon-b:before { content: '\e81c'; } /* '' */
+.icon-c:before { content: '\e81d'; } /* '' */
+.icon-d:before { content: '\e81e'; } /* '' */
+.icon-e:before { content: '\e81f'; } /* '' */
+.icon-f:before { content: '\e820'; } /* '' */
+.icon-u:before { content: '\e821'; } /* '' */
+.icon-v:before { content: '\e822'; } /* '' */
+.icon-w:before { content: '\e823'; } /* '' */
+.icon-x:before { content: '\e824'; } /* '' */
+.icon-y:before { content: '\e825'; } /* '' */
+.icon-z:before { content: '\e826'; } /* '' */
+.icon-g:before { content: '\e827'; } /* '' */
+.icon-h:before { content: '\e828'; } /* '' */
+.icon-M:before { content: '\e829'; } /* '' */
+.icon-N:before { content: '\e82a'; } /* '' */
+.icon-O:before { content: '\e82b'; } /* '' */
+.icon-P:before { content: '\e82c'; } /* '' */
+.icon-i:before { content: '\e82d'; } /* '' */
+.icon-j:before { content: '\e82e'; } /* '' */
+.icon-k:before { content: '\e82f'; } /* '' */
+.icon-l:before { content: '\e830'; } /* '' */
+.icon-m:before { content: '\e831'; } /* '' */
+.icon-S:before { content: '\e832'; } /* '' */
+.icon-R:before { content: '\e833'; } /* '' */
+.icon-Q:before { content: '\e834'; } /* '' */
